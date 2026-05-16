@@ -18,6 +18,7 @@ const UseData = () => {
         <div>
             <p>Valor: {anotherNumber}</p>
             <button onClick={() => setAnotherNUmber(20)}>Mudar state</button>
+            {/* ao clicar vai re renderizar o valor para 20 */}
         </div>
     </div>
   )
